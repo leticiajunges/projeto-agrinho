@@ -215,9 +215,9 @@ color: inherit;
 header {
 text-align: center;
 padding: 40px;
-background: #3a6b35;
+background: #6b3564;
 color: white;
-border-bottom: 10px solid #d9a441;
+border-bottom: 10px solid #d941c5;
 }
 
 header h1 {
@@ -233,7 +233,7 @@ font-size: 1.2em;
 text-align: center;
 padding: 30px;
 font-size: 1.2em;
-background-color: #fff8dc;
+background-color: #ffdcff;
 }
 
 .cards {
@@ -254,12 +254,12 @@ text-align: center;
 padding: 20px;
 transition: all 0.3s ease;
 display: block;
-color: #3a6b35;
+color: #6b3562;
 }
 
 /* Quando passa o mouse no card inteiro */
 .card:hover {
-background-color: #3a6b35;
+background-color: #6b355b;
 color: white;
 }
 
@@ -282,7 +282,7 @@ line-height: 1.6;
 }
 
 footer {
-background: #3a6b35;
+background: #6b3567;
 color: white;
 text-align: center;
 padding: 20px;
@@ -290,7 +290,7 @@ margin-top: 40px;
 }
 .rodape-centralizado {
 position: relative;
-background: #3a6b35;
+background: #6b355f;
 color: white;
 text-align: center;
 padding: 20px 40px;
@@ -320,7 +320,7 @@ background: #f0f0f0;
 .acessibilidade button {
 font-size: 1em;
 padding: 6px 12px;
-background-color: #3a6b35;
+background-color: #6b356b;
 color: #fff;
 border: none;
 border-radius: 5px;
@@ -328,7 +328,7 @@ cursor: pointer;
 }
 
 .acessibilidade button:hover {
-background-color: #2e4f29;
+background-color: #4e294f;
 }
 .descricao h2 {
 margin-bottom: 30px;
@@ -387,9 +387,38 @@ background: #f0f0f0;
 .acessibilidade button {
 font-size: 1em;
 padding: 6px 12px;
-background-color: #3a6b35;
+background-color: #6b354a;
 color: #fff;
 border: none;
 border-radius: 5px;
 cursor: pointer;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* espaço entre os cards */
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
 }
